@@ -5,3 +5,5 @@ const useBearStore = create((set) => ({
   increasePopulation: () => set((state: any) => ({ bears: state.bears + 1 })),
   removeAllBears: () => set({ bears: 0 }),
 }));
+
+export default useBearStore;

@@ -1,5 +1,8 @@
+import useBearStore from '../../store/useBearStore';
+
 const Page1 = () => {
-  return <h2>Page1</h2>;
+  const bears = useBearStore((state: any) => state.bears);
+  return <h2>{bears} around here ...</h2>;
 };
 
 export default Page1;
