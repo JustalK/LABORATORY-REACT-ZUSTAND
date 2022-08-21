@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Experience_00001 from './components/Experiences/Experience_00001';
-import Experience_00002 from './components/Experiences/Experience_00002';
-import Experience_00003 from './components/Experiences/Experience_00003';
+import Experience_00001 from './components/Zustand/Experience_00001';
+import Experience_00002 from './components/Zustand/Experience_00002';
+import Experience_00003 from './components/Zustand/Experience_00003';
 
 export default function App() {
   return (
