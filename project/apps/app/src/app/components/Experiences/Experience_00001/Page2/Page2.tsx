@@ -1,4 +1,4 @@
-import useBearStore from '../../store/useBearStore';
+import useBearStore from '../store/useBearStore';
 
 const Page2 = () => {
   const increasePopulation = useBearStore(
